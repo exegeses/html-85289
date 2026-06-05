@@ -1,0 +1,12 @@
+body{
+    background-color: hsl(189, 100%, 68%);
+    color: white;
+}
+header{
+    height: 104px;
+    background-color: hsl(189, 100%, 12%);
+}
+main{
+    height: 800px;
+    background-color: hsl(189, 100%, 40%);
+}
