@@ -44,3 +44,78 @@ header{
             font-size: 20px;
             text-decoration: none;
         }
+
+/* main */        
+    /* hero section */
+    #hero{
+        height: 768px;
+        background-image: url(../img/hero-bg.jpg);
+        background-size: cover;
+        background-position: center center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        #hero h1{
+            font-size: 96px;
+            font-weight: 400;
+        }
+        #hero h2{
+            margin-top: 16px;
+            margin-bottom: 32px;
+            font-size: 32px;
+            font-weight: 400;
+            color: #F6CE77;
+        }
+        #hero p{
+            font-size: 48px;
+        }
+        #hero p strong{
+            font-weight: 400;
+            color: #C37A6F;
+        }
+/* separador */
+
+    #separador{
+        height: 240px;
+        background-color: #272727;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        #separador p{
+            width: 800px;
+            margin-top: 24px;
+            font-size: 32px;
+            font-family: "Milonga", serif; 
+            color: #F6CE77;
+            text-align: center;
+        }
+
+/*.sección platos */
+    #platos{
+        width: 1280px;
+        margin: 64px auto 0px auto;
+
+        display: flex;
+        justify-content: space-between;
+    }
+        #platos article{
+            width: 400px;
+            height: 472px;
+        }
+
+        #asado{
+            background-image: url(../img/bg-asado.jpg);
+        }
+
+        #empanadas{
+            background-image: url(../img/bg-empanadas.jpg);
+        }
+        #ddl{
+            background-image: url(../img/bg-ddl.jpg);
+        }
