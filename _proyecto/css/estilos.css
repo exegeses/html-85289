@@ -107,15 +107,36 @@ header{
         #platos article{
             width: 400px;
             height: 472px;
+            padding: 24px 32px;
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+        }
+
+        #platos article h2 {
+            margin-bottom: 12px;
+            font-size: 32px;
+            font-weight: 400;
+            color: #F6CE77;
         }
 
         #asado{
             background-image: url(../img/bg-asado.jpg);
         }
+        #asado:hover{
+            background-image: url(../img/bg-asado-2.jpg);
+        }
 
         #empanadas{
             background-image: url(../img/bg-empanadas.jpg);
         }
+        #empanadas:hover{
+            background-image: url(../img/bg-empanadas-2.jpg);
+        }
+
         #ddl{
             background-image: url(../img/bg-ddl.jpg);
+        }
+        #ddl:hover{
+            background-image: url(../img/bg-ddl-2.jpg);
         }

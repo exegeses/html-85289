@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 960px;
+    margin: 80px auto;
+    background-color: hsl(212, 70%, 20%);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: white;
+    font-size: 2em;
+}
+h1, h2{
+    font-weight: 300;
+}
+section{
+    margin: 40px 0px;
+    padding: 32px 0px;
+
+    display: flex;
+    flex-wrap: wrap; /* respeta los anchos de los elementos internos */
+    justify-content: space-between;
+}
+    section h2{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+/* botones */
+    section a{
+        padding: 10px 24px;
+        background: HSL(212, 50%, 80%);
+        background: linear-gradient(60deg, rgba(179, 202, 230, 1) 0%, rgba(217, 229, 242, 1) 100%);
+        border-radius: 16px;
+        color: hsl(212, 70%, 20%);
+        text-decoration: none;
+    }
+    section a:hover{
+        background: HSL(212, 50%, 45%);
+        background: linear-gradient(60deg, rgba(57, 111, 172, 1) 0%, rgba(121, 163, 210, 1) 100%);
+    }
+
+/* tarjetas */
+    section article{
+        width: 298px;
+        height: 256px;
+        padding: 24px;
+        border: 1px solid HSL(212, 50%, 80%);
+        border-radius: 16px;
+    }
+    section article:hover{
+        box-shadow: 0px 0px 12px HSL(212, 50%, 80%);
+    }
