@@ -13,7 +13,7 @@ Para conectar un que utiliza MySQL, PostGreSQL o SQL Server en el backend con tu
 Se puede usar PHP como lenguaje backend para interactuar con las bases de datos típicas de juegos (como PS_UserData o PS_GameDefs).
 Por ejemplo, conectar y validar un inicio de sesión o registrar un usuario usando la extensión sqlsrv o PDO:
 
-`
+```
 <?php
 // Configuración de la conexión
 $serverName = "IP_DE_TU_SERVIDOR_DE_JUEGO, 1433";
@@ -38,7 +38,7 @@ $stmt = sqlsrv_query($conn, $sql);
 while ($row = sqlsrv_fetch_array($stmt, SQLSRV_FETCH_ASSOC)) {
     echo $row['CharName'] . " - Nivel: " . $row['Level'] . "<br>";
 }
-
+```
 
 esto es un ejemplo. 
 para otros juego tal vez haya APIS públicas y con PHP se puede conectar y obtener los detos que estén disponibles.
