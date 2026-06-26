@@ -140,3 +140,35 @@ header{
         #ddl:hover{
             background-image: url(../img/bg-ddl-2.jpg);
         }
+
+
+/* footer */
+footer{
+    height: 256px;
+    margin-top: 64px;
+    background-color: #1F1C1B;
+
+    display: flex;
+    justify-content: center;
+}
+    footer article{
+        width: 400px;
+        height: 256px;
+        margin: 0 20px;
+        padding: 0 32px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+        footer article div{
+            margin-top: 16px;
+        }
+            footer article div a{
+                margin-right: 32px;
+            }
+        
+        footer article p{
+            margin-top: 16px;
+        }

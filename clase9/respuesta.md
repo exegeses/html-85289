@@ -45,4 +45,3 @@ para otros juego tal vez haya APIS públicas y con PHP se puede conectar y obten
 
 espero te sirva para investigar
 
-besoo
